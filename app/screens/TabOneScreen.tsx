@@ -1,3 +1,4 @@
+import { Button } from '@tamagui/button';
 import { StyleSheet } from 'react-native';
 
 import EditScreenInfo from '../../app/components/EditScreenInfo';
@@ -10,6 +11,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
       <Text style={styles.title}>Tab One</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="/screens/TabOneScreen.tsx" />
+      <Button>Hello</Button>
     </View>
   );
 }
